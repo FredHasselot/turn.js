@@ -1,4 +1,7 @@
 var $ = require('jquery');
+// RUN ONLY ON CLIENT SIDE ->
+if (typeof window == 'undefined') { return false; }
+
 
 var has3d,
 
